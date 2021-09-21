@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        th,td{
+            padding: 4px;
+        }
+        table{
+            margin-top: 2em;
+            margin-left: 2em;
+        }
+        #complex-table {
+            width: 240px;
+            height: 350px;
+        }
+        #complex-table tbody td{
+            width: 60px;
+            height: 60px;
+        }
+        #complex-table thead{
+            height: 25px;
+        }
+        #complex-table tfoot{
+            height:25px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <img src = "Images/dog422.png" title = "funny dog">
+    <br>
+    <a href = "mailto:janacej1@gmatc.matc.edu">Email Jerry Janacek</a>
+
+    <table id="simple-table" border="1" cellspacing="0">
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+    <table id="complex-table" border="1" cellspacing="0" >
+        <thead>
+            <tr>
+                <th colspan="4" scope="colgroup">Numpad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="font-size: 10px;">NUMLK</td>
+                <td>/</td>
+                <td>*</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td rowspan="2">+</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td rowspan="2" style="font-size: 10px;">ENTER</td>
+            </tr>
+            <tr>
+                <td colspan="2">0</td>
+                <td>.</td>
+            </tr>  
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">This is a numpad.</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
