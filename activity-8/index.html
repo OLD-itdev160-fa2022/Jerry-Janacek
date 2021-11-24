@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Blog</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+</head>
+<body>
+    <header>
+        <h1 class="header-title">My Blog</h1>
+        <div class="header-menu">
+            <button id="new-button">New</button>
+        </div>
+    </header>
+    <main>
+        <section id="display-content"></section>
+    </main>
+    <footer>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in enim porta, tempor enim ut, iaculis purus. Duis non ex ac arcu posuere convallis id eget nibh. Ut sed vestibulum nulla. Praesent eget eleifend eros, eu commodo purus. Sed egestas quam quis tempor vestibulum. Quisque interdum, orci id posuere ultrices, ante mi volutpat enim, et pulvinar felis ligula nec leo. Etiam quis urna et tellus volutpat accumsan sit amet at sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam blandit, purus ut vehicula rhoncus, nisl mauris malesuada nunc, et iaculis nisl erat non velit. Morbi id nulla a odio bibendum bibendum. Fusce pretium nulla magna, ut placerat erat aliquam at. Mauris volutpat imperdiet odio. Sed convallis euismod risus ut luctus. Duis a lacus est. Vestibulum vestibulum, tellus ornare semper consectetur, felis justo laoreet sem, eget hendrerit felis orci at tellus. In tincidunt finibus elit nec viverra.
+    </footer>
+
+    <div class="modal" id="modal-dialog">
+        <section>
+            <h2>Title</h2>
+            <input type="text" id="edit-title-text">
+            <span id="edit-title-message"></span>
+        </section>
+        <section>
+            <h2>Content</h2>
+            <textarea name="edit-content-text" id="edit-content-text" cols="80" rows="8"></textarea>
+            <span id="edit-content-message"></span>
+        </section>
+        <footer>
+            <button id="cancel-button">Cancel</button>
+            <button id="save-button">Save</button>
+        </footer>
+    </div>
+    <div id="modal-backdrop"></div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
